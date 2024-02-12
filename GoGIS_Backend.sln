@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGIS_Backend", "GoGIS_Backend\GoGIS_Backend.csproj", "{FA7FF905-E219-48AA-BE02-4C6866F4069E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGIS_Data", "GoGIS_Data\GoGIS_Data.csproj", "{B25223F2-527F-4600-912A-688DEDC20D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGIS_Services", "GoGIS_Services\GoGIS_Services.csproj", "{EA2DF9A2-6722-4A42-A05B-F8C215E5B490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGIS_Model", "GoGIS_Model\GoGIS_Model.csproj", "{2F8CFD29-7691-4D49-A811-0CDDC8AC79E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7FF905-E219-48AA-BE02-4C6866F4069E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7FF905-E219-48AA-BE02-4C6866F4069E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7FF905-E219-48AA-BE02-4C6866F4069E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7FF905-E219-48AA-BE02-4C6866F4069E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25223F2-527F-4600-912A-688DEDC20D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25223F2-527F-4600-912A-688DEDC20D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25223F2-527F-4600-912A-688DEDC20D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25223F2-527F-4600-912A-688DEDC20D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2DF9A2-6722-4A42-A05B-F8C215E5B490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2DF9A2-6722-4A42-A05B-F8C215E5B490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2DF9A2-6722-4A42-A05B-F8C215E5B490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2DF9A2-6722-4A42-A05B-F8C215E5B490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8CFD29-7691-4D49-A811-0CDDC8AC79E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8CFD29-7691-4D49-A811-0CDDC8AC79E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8CFD29-7691-4D49-A811-0CDDC8AC79E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8CFD29-7691-4D49-A811-0CDDC8AC79E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5A985D8-9DE8-49E9-BBD0-EA5A897B32CB}
+	EndGlobalSection
+EndGlobal
