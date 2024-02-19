@@ -52,8 +52,14 @@ namespace GoGIS_Services.ContactUsService
                 _Name.ParameterName = "@name";
                 _Name.Value = mod.name;
 
-                model = _dbContext.ExecuteStoredProcedure<ContactUs>("EXEC ContactUs_SP @actionId,@sub_title,@email,@phone,@message,@name",
-                    _ActionId, _Title, _Email, _Phone, _Message, _Name).FirstOrDefault();
+               SqlParameter _Id = new SqlParameter();
+                _Id.Direction = System.Data.ParameterDirection.Input;
+                _Id.DbType = System.Data.DbType.Int32;
+                _Id.ParameterName = "@id";
+                _Id.Value = mod.id;
+
+                model = _dbContext.ExecuteStoredProcedure<ContactUs>("EXEC ContactUs_SP @actionId,@id,@sub_title,@email,@phone,@message,@name",
+                    _ActionId, _Id, _Title, _Email, _Phone, _Message, _Name).FirstOrDefault();
 
                 List<Tech_Interest> tech_Interest = new List<Tech_Interest>();
                 foreach (var item in mod.Technology_of_interest)
